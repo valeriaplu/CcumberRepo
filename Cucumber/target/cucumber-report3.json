@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Valida il campo First Name12",
+        "description": "",
+        "id": "crea-account-di-facebook1;valida-il-campo-first-name12",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6018353987,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Utente deve trovarsi nella pagina di login",
+            "match": {
+              "location": "FirstStepDef.utente_devi_aprire_un_homepage_di_facebook_e_validare_i_campi()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121776413,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Utente deve inserire il nome",
+            "match": {
+              "location": "FirstStepDef.utente_deve_inserire_il_nome()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24465962,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Utente controlla che il nome dell utente sia presente",
+            "match": {
+              "location": "FirstStepDef.utent_controlla_che_il_nome_dell_utente_sia_presente()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Crea account di facebook1",
+    "description": "Come utente devi aprire un homepage di facebook e validare i campi",
+    "id": "crea-account-di-facebook1",
+    "keyword": "Feature",
+    "uri": "MyFirstFeature.feature"
+  }
+]

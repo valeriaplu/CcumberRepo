@@ -1,0 +1,16 @@
+com\basic\tagsStepDef\RunTags.class
+com\basic\tagsStepDef\StepDefTag.class
+com\basic\Shared\SharedClass.class
+com\basic\Multi\GoogleStepDef.class
+com\basic\parameterization\RunParam.class
+com\basic\Shared\SharedStepDef.class
+com\basic\Shared\SharedStepDef2.class
+com\basic\esempioMoltepliciScenari\StepDefMolteplici.class
+com\basic\FirstFeatureFile\FirstStepDef.class
+com\basic\Shared\SharedRun.class
+com\basic\esempioMoltepliciScenari\RunMolteplici.class
+com\basic\parameterization\StepDefParam.class
+com\basic\DataTableStep\StepDataTable.class
+com\basic\Multi\FacebookStepDef.class
+com\basic\FirstFeatureFile\RunFirstFeatureTest.class
+com\basic\Multi\RunMulti.class

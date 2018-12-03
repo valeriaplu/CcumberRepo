@@ -1,0 +1,190 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2265049423,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedClass.BeforeSetup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Valida il campo First Name72",
+        "description": "",
+        "id": "crea-account-di-facebook71;valida-il-campo-first-name72",
+        "after": [
+          {
+            "result": {
+              "duration": 732652018,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedClass.Chiusura_Browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1931653279,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Utente deve trovarsi nella pagina di login",
+            "match": {
+              "location": "SharedStepDef.utente_devi_aprire_un_homepage_di_facebook_e_validare_i_campi()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1172376732,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Utente inserisce email \"pippo@gmail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pippo@gmail",
+                  "offset": 24
+                }
+              ],
+              "location": "SharedStepDef.utente_deve_inserire_email(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1050127798,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Utente controlla che \"pippo@gmail\" dell\u0027utente sia presente",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pippo@gmail",
+                  "offset": 22
+                }
+              ],
+              "location": "SharedStepDef2.utent_controlla_che_email_dell_utente_sia_presente(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2306498201,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedClass.BeforeSetup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Validare la creazione di molteplici campi dell utente73",
+        "description": "",
+        "id": "crea-account-di-facebook71;validare-la-creazione-di-molteplici-campi-dell-utente73",
+        "after": [
+          {
+            "result": {
+              "duration": 741948476,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedClass.Chiusura_Browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1985262374,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Utente deve trovarsi nella pagina di login",
+            "match": {
+              "location": "SharedStepDef.utente_devi_aprire_un_homepage_di_facebook_e_validare_i_campi()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1150992621,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Utente inserisce email \"mario@gmail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mario@gmail",
+                  "offset": 24
+                }
+              ],
+              "location": "SharedStepDef.utente_deve_inserire_email(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1143558739,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Utente inserisce password \"pippo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pippo",
+                  "offset": 27
+                }
+              ],
+              "location": "SharedStepDef2.Utente_inserisce_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1039265167,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Utente controlla che \"mario@gmail\" dell\u0027utente sia presente",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mario@gmail",
+                  "offset": 22
+                }
+              ],
+              "location": "SharedStepDef2.utent_controlla_che_email_dell_utente_sia_presente(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Crea account di facebook71",
+    "description": "Come utente devi aprire un homepage di facebook e validare i campi",
+    "id": "crea-account-di-facebook71",
+    "keyword": "Feature",
+    "uri": "shared.feature"
+  }
+]

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="15.519385">
+<testcase classname="Crea account di facebook71" name="Valida il campo First Name72" time="7.151859">
+<system-out><![CDATA[Given Utente deve trovarsi nella pagina di login............................passed
+When Utente inserisce email "pippo@gmail"...................................passed
+Then Utente controlla che "pippo@gmail" dell'utente sia presente............passed
+]]></system-out>
+</testcase>
+<testcase classname="Crea account di facebook71" name="Validare la creazione di molteplici campi dell utente73" time="8.367526">
+<system-out><![CDATA[Given Utente deve trovarsi nella pagina di login............................passed
+When Utente inserisce email "mario@gmail"...................................passed
+And Utente inserisce password "pippo".......................................passed
+Then Utente controlla che "mario@gmail" dell'utente sia presente............passed
+]]></system-out>
+</testcase>
+</testsuite>
